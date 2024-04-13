@@ -1,0 +1,21 @@
+.box{
+    width: 60px;
+    height: 60px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+:root{
+    --textColor: green;
+}
+.box1{
+    background-color: var(--textColor);
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: blueviolet;
+    padding: 20px 0px 0px 0px;
+}

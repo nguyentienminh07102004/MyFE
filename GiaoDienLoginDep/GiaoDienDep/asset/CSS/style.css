@@ -1,0 +1,57 @@
+.container .inner-wrap {
+    display: flex;
+}
+.container .inner-wrap .image {
+    padding-right: 42px;
+    background-color: #EFF2F7;
+    display: flex;
+    align-items: center;
+}
+.container .inner-wrap .inner-input {
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #10163A;
+    color: #C2B8B2;
+}
+.container .inner-desc .inner-title {
+    font-size: 19px;
+}
+.container .inner-input .inner-login .inner-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .inner-input .inner-form .input-row {
+    padding: 8.4px;
+    background-color: #262c49;
+    border-radius: 5px;
+    color: #EFF2F7;
+}
+.container .inner-input .inner-desc .inner-nofi {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.container .inner-input .inner-login .inner-deal {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .inner-input .inner-login .inner-deal .desc {
+    font-size: 14px;
+    margin-left: 10px;
+}
+.container .inner-input .inner-login .inner-deal .check-deal {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.container .inner-input .inner-login .inner-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .inner-input .inner-login .inner-button .button-signup {
+    background-color: #7367F0;
+    color: #FFFFFF;
+}

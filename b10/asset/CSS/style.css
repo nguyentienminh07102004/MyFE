@@ -1,0 +1,30 @@
+.section-one .inner-main {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.section-one .inner-header {
+    background: -webkit-linear-gradient(-30deg, #d57f20, #d62b08 100%);
+    text-align: center;
+    padding: 10px;
+}
+.section-one .inner-header .inner-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+}
+.section-one .inner-body {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+.section-one .card-header {
+    background-color: #fff;
+    border: 0;
+    padding: 0;
+}
+.section-one .btn {
+    background-color: #fff;
+}
+.section-one .collapsed {
+    border: 5;
+}

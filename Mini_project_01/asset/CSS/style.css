@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Header */
+.header {
+    background-color: #EFEFEF;
+    height: 100px;
+    color: #565656;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header .inner-wrap {
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header .inner-one a .inner-title {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.header .inner-one a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.header .inner-one img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header .inner-two {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .inner-two ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.header .inner-two li {
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 0 22px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .inner-two li:hover {
+    background-color: #fff;
+    height: 100%;
+}
+
+.header .inner-three ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.header .inner-three li {
+    list-style-type: none;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Header */
+/* Section one */
+.section-one {
+    position: relative;
+}
+
+.section-one .inner-wrap {
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.section-one .inner-wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.section-one .inner-wrap .inner-content {
+    position: absolute;
+    top: 200px;
+    left: 330px;
+    color: #EFEFEF;
+}
+
+.section-one .inner-wrap .inner-content .name {
+    font-size: 20px;
+}
+
+.section-one .inner-wrap .inner-content .inner-title {
+    font-size: 50px;
+}
+
+.section-one .inner-wrap .inner-content .inner-desc {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.section-one .inner-wrap .inner-content .inner-button {
+    display: flex;
+}
+
+.section-one .inner-wrap .inner-content .inner-button .button-one {
+    margin-right: 20px;
+}
+
+.section-one .inner-wrap .inner-content .inner-button .button-one:hover {
+    background-color: #EFEFEF;
+}
+
+.section-one .inner-wrap .inner-content .inner-button .button-two {
+    background: transparent;
+    color: #fff;
+}
+
+.section-one .inner-wrap .inner-content .inner-button .button-two:hover {
+    background: #fff;
+    color: #565656;
+}
+
+/* End Section One */
+/* Section Two */
+.section-two {
+    margin-top: 70px;
+    background-color: #EFEFEF;
+}
+
+.section-two .inner-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-two .inner-wrap .inner-content {
+    padding-top: 30px;
+}
+
+.section-two .inner-wrap img {
+    width: 480px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.section-two .inner-wrap .inner-content .inner-title h1 {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    margin-top: 20px;
+}
+
+.section-two .inner-wrap .inner-content .inner-title strong {
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.section-two .inner-wrap .inner-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-two .inner-wrap .inner-box .box {
+    padding: 30px 45px;
+    background-color: #fff;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-two .inner-wrap .inner-box .box i {
+    color: #FF8484;
+    font-size: 30px;
+}
+
+.section-two .inner-wrap .inner-box .box .inner-des {
+    margin-top: 20px;
+}
+
+.section-two .inner-wrap .inner-desc {
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-top: 30px;
+    color: #777777;
+}
+
+.section-two .inner-button {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000;
+    background-color: #FF8484;
+}
+
+.section-two .inner-button:hover {
+    background-color: #EFEFEF;
+}

@@ -1,0 +1,24 @@
+.ele-parent{
+    border: 5px solid red;
+}
+.ele-child{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.ele-A{
+    background-color: #B6A800;
+    height: 100px;
+    float: left;
+}
+.ele-B{
+    background-color: #343EFA;
+    height: 150px;
+    float: right;
+}
+.ele-C{
+    background-color: #008A18;
+    height: 200px;
+    float: right;
+}

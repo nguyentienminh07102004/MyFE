@@ -1,0 +1,56 @@
+.header {
+    background-color: #BB2019;
+    color: white;
+    padding: 3px 50px;
+}
+.header .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .inner-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo {
+    background-color: #fff;
+    width: 34px;
+    height: 34px;
+    padding-top: 3px;
+    border-radius: 50%;
+    text-align: center;
+}
+.header .logo img {
+    width: 20px;
+    height: 25px;
+}
+.header .inner-menu {
+    margin-left: 20px;
+}
+.header .inner-menu ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.header .inner-menu ul li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+.header .inner-menu li a {
+    color: white;
+}
+.header .inner-setting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .change-language img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+.header .login-logo img {
+    width: 25px;
+    height: 25px;
+}

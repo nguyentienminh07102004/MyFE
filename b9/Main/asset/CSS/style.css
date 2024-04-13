@@ -1,0 +1,18 @@
+.section-one {
+    background-color: #F8FCF9;
+    padding: 60px 0;
+}
+.section-one .inner-box {
+    margin: 15px 0;
+}
+.section-one .inner-box i {
+    color: #5CB874;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.section-one .inner-box .inner-tilte {
+    font-size: 20px;
+}
+.section-one .inner-box .inner-desc {
+    font-size: 14px;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+table {
+    border-collapse: collapse;
+}
+
+.header {
+    color: white;
+    background-color: #00887C;
+}
+
+.ID {
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Name {
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Gender {
+    padding-left: 5px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Age {
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+th, td {
+    border: 1px solid gray;
+    font-family: "Roboto";
+}
